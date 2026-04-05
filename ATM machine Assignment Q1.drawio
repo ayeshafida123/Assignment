@@ -1,0 +1,225 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="aGBFXN824jxDH0p_UPqZ">
+    <mxGraphModel dx="1029" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value=":User" vertex="1">
+          <mxGeometry height="30" width="120" x="110" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value=":ATM" vertex="1">
+          <mxGeometry height="30" width="120" x="320" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value=":System" vertex="1">
+          <mxGeometry height="30" width="120" x="570" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-6" edge="1" parent="1" source="qKNWE-dAdhf_Nmmg7rDN-17" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="qKNWE-dAdhf_Nmmg7rDN-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-7" edge="1" parent="1" source="qKNWE-dAdhf_Nmmg7rDN-10" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="qKNWE-dAdhf_Nmmg7rDN-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="170" y="400" as="sourcePoint" />
+            <mxPoint x="380" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-8" edge="1" parent="1" source="qKNWE-dAdhf_Nmmg7rDN-19" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="620" y="410" as="sourcePoint" />
+            <mxPoint x="620" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="140" />
+            </Array>
+            <mxPoint x="180" y="140" as="sourcePoint" />
+            <mxPoint x="370" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-12" connectable="0" parent="qKNWE-dAdhf_Nmmg7rDN-11" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Insert Card" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="367" y="169" as="sourcePoint" />
+            <mxPoint x="182" y="169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-14" connectable="0" parent="qKNWE-dAdhf_Nmmg7rDN-13" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Ask PIN" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="200" />
+            </Array>
+            <mxPoint x="180" y="200" as="sourcePoint" />
+            <mxPoint x="370" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-16" connectable="0" parent="qKNWE-dAdhf_Nmmg7rDN-15" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Enter PIN" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-18" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="qKNWE-dAdhf_Nmmg7rDN-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="705.9999694824219" as="sourcePoint" />
+            <mxPoint x="380" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="570" width="20" x="370" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-20" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="qKNWE-dAdhf_Nmmg7rDN-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="700" />
+              <mxPoint x="620" y="390" />
+            </Array>
+            <mxPoint x="620" y="410" as="sourcePoint" />
+            <mxPoint x="620" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="570" width="20" x="610" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-22" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="qKNWE-dAdhf_Nmmg7rDN-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="170" y="739.4736842105264" as="sourcePoint" />
+            <mxPoint x="170" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="560" width="20" x="160" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.045;entryY=0.175;entryDx=0;entryDy=0;entryPerimeter=0;" target="qKNWE-dAdhf_Nmmg7rDN-19" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="200" />
+              <mxPoint x="490" y="200" />
+            </Array>
+            <mxPoint x="393" y="200" as="sourcePoint" />
+            <mxPoint x="600" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-24" connectable="0" parent="qKNWE-dAdhf_Nmmg7rDN-23" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Verify Pin" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-27" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="280" />
+              <mxPoint x="340" y="280" />
+            </Array>
+            <mxPoint x="180" y="280" as="sourcePoint" />
+            <mxPoint x="370" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-28" connectable="0" parent="qKNWE-dAdhf_Nmmg7rDN-27" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Select Withdraw + Amount" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="280" />
+            </Array>
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="610" y="281" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-36" connectable="0" parent="qKNWE-dAdhf_Nmmg7rDN-35" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Check Balance" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-39" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="alt" vertex="1">
+          <mxGeometry height="310" width="700" x="20" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[Sufficient Balance]" vertex="1">
+          <mxGeometry height="30" width="120" x="30" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-52" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.8;entryY=0.626;entryDx=0;entryDy=0;entryPerimeter=0;" value="Dispense Cash">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="360" as="sourcePoint" />
+            <mxPoint x="186" y="360.44000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-63" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="400" />
+            </Array>
+            <mxPoint x="390" y="400" as="sourcePoint" />
+            <mxPoint x="610" y="401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-64" connectable="0" parent="qKNWE-dAdhf_Nmmg7rDN-63" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Update Balance" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-65" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="430" />
+            </Array>
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="610" y="431" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-66" connectable="0" parent="qKNWE-dAdhf_Nmmg7rDN-65" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Print Receipt" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-69" edge="1" parent="1" source="qKNWE-dAdhf_Nmmg7rDN-39" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.007;exitY=0.602;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="23.500000000000114" y="500" as="sourcePoint" />
+            <mxPoint x="710" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[else]" vertex="1">
+          <mxGeometry height="30" width="60" x="20" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-72" edge="1" parent="1" source="qKNWE-dAdhf_Nmmg7rDN-19" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=0.737;exitDx=0;exitDy=0;exitPerimeter=0;" value="Insufficient Balance">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="584" y="520" as="sourcePoint" />
+            <mxPoint x="390" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-73" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.8;entryY=0.626;entryDx=0;entryDy=0;entryPerimeter=0;" value="Show error">
+          <mxGeometry relative="1" x="-0.0028" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="370" y="540" as="sourcePoint" />
+            <mxPoint x="180" y="540.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-74" edge="1" parent="1" source="qKNWE-dAdhf_Nmmg7rDN-19" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.8;entryY=0.626;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.229;exitDx=0;exitDy=0;exitPerimeter=0;" value="PIN Verified">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="584" y="230" as="sourcePoint" />
+            <mxPoint x="400" y="230.44000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-75" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1.203;entryY=0.384;entryDx=0;entryDy=0;entryPerimeter=0;" value="Balance OK">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605.94" y="331.12" as="sourcePoint" />
+            <mxPoint x="389.99999999999994" y="330.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKNWE-dAdhf_Nmmg7rDN-76" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;ATM machine&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="330" y="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
